@@ -1,368 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ui designer portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Project-15</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
 
-    <div class="container">
+    <body>
+        <div class="container">
+            <!-- Navbar Section -->
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="" />
+                </div>
+                <ul class="list">
+                    <li>Home<i class="caret fa-solid fa-caret-down"></i></li>
+                    <li>Project</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Other Page<i class="caret fa-solid fa-caret-down"></i></li>
+                </ul>
+                <img src="./images/menu-icon.svg" alt="icon" class="menu-icon" />
+            </div>
+            <!-- Header Section -->
+            <section class="header">
+                <div class="header-left">
+                    <div class="image">
+                        <img src="images/man.png" alt="" />
+                    </div>
+                </div>
+                <div class="header-right">
+                    <h4>Hello I'm Arthur</h4>
+                    <h1>Visual Designer</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing <br />
+                        elit. Quam sed id consequatur ipsum quis explicabo, autem <br />
+                        delectus nulla minus tempora?
+                    </p>
+                    <button class="btn">ABOUT ME</button>
+                </div>
+                <div class="box"></div>
+            </section>
+            <!-- Services Section -->
+            <section>
+                <div class="services">
+                    <div class="cards">
+                        <!-- card-1 -->
+                        <div class="card">
+                            <div class="logo">
+                                <img src="./images/ui.svg" alt="ui" />
+                            </div>
+                            <h1>UI Design</h1>
+                            <p>
+                                Lorem ipsum dolor sit <br />
+                                amet consectetur <br />
+                                adipisicing elit.
+                            </p>
 
-        <nav class="navbar">
+                            <div class="service-btn">
+                                <button class="btn">KNOW MORE</button>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                        <!-- card-2 -->
+                        <div class="card">
+                            <div class="logo">
+                                <img src="./images/product.svg" alt="ui" />
+                            </div>
+                            <h1>UI Design</h1>
+                            <p>
+                                Lorem ipsum dolor sit <br />
+                                amet consectetur <br />
+                                adipisicing elit.
+                            </p>
 
-            <div class="logo">
-                <img src="./img/Logo.png" alt="">
+                            <div class="service-btn">
+                                <button class="btn">KNOW MORE</button>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                        <!-- card-3 -->
+                        <div class="card">
+                            <div class="logo">
+                                <img src="./images/branding.svg" alt="ui" />
+                            </div>
+                            <h1>UI Design</h1>
+                            <p>
+                                Lorem ipsum dolor sit <br />
+                                amet consectetur <br />
+                                adipisicing elit.
+                            </p>
+
+                            <div class="service-btn">
+                                <button class="btn-1">KNOW MORE</button>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Stats -->
+                    <div class="stats">
+                        <div class="left">
+                            <h1>12</h1>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="right">
+                            <div class="card">
+                                <h1>60+</h1>
+                                <p>Clients</p>
+                            </div>
+                            <div class="card">
+                                <h1>08</h1>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="card">
+                                <h1>122+</h1>
+                                <p>Projects</p>
+                            </div>
+                            <div class="card">
+                                <h1>10</h1>
+                                <p>Achievments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Features -->
+            <div class="features">
+                <div class="feature">
+                    <div class="heading-l">
+                        <h2>FEATURED PROJECTS</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="heading-r">
+                        <button class="btn">View All</button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-1">
+                        <div class="card-img">
+                            <img src="./images/art.jpg" alt="p-1" />
+                        </div>
+                        <h1>The Vintage</h1>
+                        <span>
+                            <button class="card-btn">KNOW MORE</button>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                    <div class="card-1">
+                        <div class="card-img">
+                            <img src="./images/burger.jpg" alt="p-1" />
+                        </div>
+                        <h1>Foodasa</h1>
+                        <span>
+                            <button class="card-btn">KNOW MORE</button>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                    <div class="card-1">
+                        <div class="card-img">
+                            <img src="./images/home decor.jpg" alt="p-1" />
+                        </div>
+                        <h1>Macro Accent</h1>
+                        <span>
+                            <button class="card-btn">KNOW MORE</button>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                    <div class="card-1">
+                        <div class="card-img">
+                            <img src="./images/music.jpg" alt="p-1" />
+                        </div>
+                        <h1>Mozaik</h1>
+                        <span>
+                            <button class="card-btn">KNOW MORE</button>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact -->
+            <div class="contact-section">
+                <div class="contact-card">
+                    <div class="left">
+                        <h1>
+                            Let's work together on
+                            your next project.
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. <br />
+                            Alias, dolores. amet consectetur adipisicing
+                        </p>
+                    </div>
+                    <div class="right-btn">
+                        <button class="contact-btn">Contact</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Section -->
+            <div class="footer-nav">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
             </div>
 
-            <ul class="list-items">
-                <li><a href="">Home</a></li>
-                <li><a href="">Project</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Other Page</a></li>
-
-            </ul>
-
-
-        </nav>
-
-
-        <div class="hero-section">
-
-            <div class="left-hero-section">
-
-                <img src="./img/pr-15-men.png" alt="">
-
-            </div>
-
-
-            <div class="right-hero-section">
-
-                <h2>Hello I'm Arthur</h2>
-                <h1>Visual Designer</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                <button class="btn">About Me</button>
-              
-
-
-            </div>
-
-
-
+            <footer class="footer">
+                <div class="footer-img">
+                    <img src="./images/logo.svg" alt="logo" />
+                </div>
+                <div class="icons">
+                    <img src="./images/fb.svg" alt=" " />
+                    <img src="./images/twitter.svg" alt=" " />
+                    <img src="./images/youtube.svg" alt=" " />
+                </div>
+            </footer>
         </div>
-       
-    </div>
+    </body>
 
-
-    <div class="shadow"></div>
-
-     <!-- -----container-div -->
-
-
-
-     <main>
-        <div class="serives-section">
-
-
-            <div class="cards">
-
-            <div class="card">
-                
-                <img src="https://cdn-icons.flaticon.com/png/512/4661/premium/4661409.png?token=exp=1658826080~hmac=1f17ae7643f56987b0cd1ae4d6e20749" alt="">
-                <h2>Ui Design</h2>
-                <p>Lorem Ipsum dolar sit amet, consectur adipiscing alit.</p>
-
-                
-              <div class="link">
-                <a class="link" href="#">Know More </a>
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-
-              </div>
-
-
-            </div>
-
-            <div class="card active-card">
-
-                <img src="https://cdn-icons-png.flaticon.com/512/7235/7235447.png" alt="">
-                <h2>Poduct Design</h2>
-                <p>Lorem Ipsum dolar sit amet, consectur adipiscing alit.</p>
-
-               
-              <div class="active-link">
-                <a class="active-link" href="#">Know More </a>
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-
-              </div>
-
-
-            </div>
-
-            <div class="card">
-
-                <img src="https://cdn-icons.flaticon.com/png/512/4152/premium/4152699.png?token=exp=1658826121~hmac=e64e84685c5ca9f4ca9e3a893fd1a1c1" alt="">
-                <h2>Branding</h2>
-                <p>Lorem Ipsum dolar sit amet, consectur adipiscing alit.</p>
-               
-
-              <div class="link">
-                <a class="link" href="#">Know More </a>
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-
-              </div>
-                 
-
-
-            </div>
-
-        </div> 
-        <!-- cards -->
-
-            <!-- ----------------experience--work -->
-
-        <div class="work">
-
-               <div class="work-box">
-
-                <h2>12</h2>
-                <h3>Years Experience</h3>
-
-               </div>
-<!-- ----------------------------------------------------------------  -->
-
-               <div>
-
-                <div class="divide-two">
-
-             
-
-                <div class="box">
-                    
-                    <h2>60+</h2>
-                    <p>Clients</p>
-
-                </div>
-
-                <div class="box">
-
-                    <h2>08</h2>
-                    <p>Years Experince</p>
-
-                </div>
-
-            </div>
-
-            <div class="divide-two">
-
-           
-
-                <div class="box">
-
-                    <h2>122+</h2>
-                    <p>Completed Projects</p>
-
-                </div>
-
-                <div class="box">
-
-                    <h2>10</h2>
-                    <p>Achievment</p>
-
-                </div>
-
-              </div>
-
-
-               </div>
-
-        
-             </div>
-
-
-        </div>
-     </main>
-
-
-
-
-     <!-- feature project start here -->
-
-
-     <section>
-       
-        <div class="project-feature">
-
-            <div class="project-feature-header">
-
-                <div class="feature-heading">
-                <h2>Featured projects</h2>
-                <p>Lorem ipsum dolar amet, consectur adipscing elit</p>
-                </div>
-                 
-                <button class="btn">View All</button>
-               
-
-            </div>
-
-            <!-- ------------------------------------------- projects here -->
-
-
-            <div class="projects">
-
-                <div class="project-card">
-
-                 <img src="./img/15-pr-mesh-img.jpg" alt="">
-                 <h2>The Vintage</h2>
-                 <a href="#">Know More <ion-icon name="arrow-forward-outline"></ion-icon> </a>
-
-
-
-                </div>
-
-                <div class="project-card">
-
-                 <img src="./img/pr-15-burger.jpg" alt="">
-                 <h2>Foodasa</h2>
-                 <a href="#">Know More <ion-icon name="arrow-forward-outline"></ion-icon> </a>
-
-
-
-                </div>
-
-                <div class="project-card">
-
-                 <img src="./img/pr-15-homedesign.jpg" alt="">
-                 <h2>Marco Accent</h2>
-                 <a href="#">Know More <ion-icon name="arrow-forward-outline"></ion-icon> </a>
-
-
-
-                </div>
-
-                <div class="project-card">
-
-                 <img id="project-card-fix" src="./img/pr15-musicparty.jpg" alt="">
-                 <h2>Mozaik</h2>
-                 <a href="#">Know More <ion-icon name="arrow-forward-outline"></ion-icon> </a>
-
-
-
-                </div>
-
-
-
-
-
-
-            </div>
-
-  
-        </div>
-
-
-
-     </section>
-
-
-
-
-
-
-     <!-- contact next project  -->
-
-         
-      <section>
-
-        <div class="contact">
-
-            <div class="header-contact">
-
-
-                <h2>Let's work together on <br> your next project</h2>
-                <p>Lorem ipsum dolar sit amet, consectur adipiscing elit. Morbi mollis augue eget amuris consectrtur rutrum.</p>
-
-
-
-            </div>
-                
-
-            <button class="btn contact-btn">Contact</button>
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-      </section>
-
-
-
-      <!-- ----------------- Bottom navbar--------------  -->
-
-
-
-      <nav class="bottom-navbar">
-      
-        <ul class="list-items">
-            <li><a href="">Home</a></li>
-            <li><a href="">Project</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-           
-
-        </ul>
-
-
-      </nav>
-
-
-
-    <!-- -------------------------------footer-------    -->
-
-
-    <footer>
-
-        <div>
-
-          <img src="./img/Logo.png" alt="">
-
-        </div>
-
-        <div class="social-media">
-            <ion-icon class="s-icon" name="logo-youtube"></ion-icon>
-            <ion-icon class="s-icon" name="logo-twitter"></ion-icon>
-            <ion-icon class="s-icon" name="logo-youtube"></ion-icon>
-
-        </div>
-
-
-
-
-    </footer>
-
-
-
-
-
-
-
-
-<!-- script -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
 </html>
